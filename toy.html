@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang='eng'>
+<head>
+    <meta charset="utf-8">
+    <title>Sarah's JS testing</title>
+    <style>
+        h1 { font-size: 14px; color: hotpink; }
+        button { color: red; }
+    </style>
+    <script src="sarahtests.js"></script>
+</head>
+<body>
+<h1>Hello World</h1>
+<button>Click Me!</button>
+
+<!-- JavaScript for interactivity. -->
+<script>
+
+    // Get a handle on the first button element in the document.
+    var button = document.querySelector( "button" );
+
+    // If a user clicks on it, say hello!
+    button.addEventListener( "click", function( ev ) {
+        alert( "Hello" );
+    }, false);
+
+</script>
+</body>
+</html>
