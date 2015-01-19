@@ -1,0 +1,2 @@
+<A href ="javascript:alert{ 'Hello Mundo' );">Click Me!</a>
+<button onclick="alert( 'Good Bye Mundo' );">Click Me Too!</button>
